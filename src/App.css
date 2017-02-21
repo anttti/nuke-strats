@@ -1,0 +1,15 @@
+.app {
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: flex;
+}
+
+.button {
+  display: inline-block;
+  margin-right: 15px;
+}

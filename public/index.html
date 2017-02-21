@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <title>Nuke Strats</title>
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <script>
+    var config = {
+      apiKey: "%API_KEY%",
+      authDomain: "%AUTH_DOMAIN%",
+      databaseURL: "%DATABASE_URL%",
+      storageBucket: "%STORAGE_BUCKET%",
+      messagingSenderId: "%MESSAGING_SENDER_ID%"
+    };
+    window.firebaseApp = firebase.initializeApp(config);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
